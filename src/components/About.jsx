@@ -1,4 +1,5 @@
 import React from 'react';
+import a1Image from '../components/a1.jpg'
 
 const About = () => {
   return (
@@ -8,6 +9,7 @@ const About = () => {
         <p className="text-gray-600">
           Hi! I'm a passionate web developer who loves building clean and responsive websites. With a focus on frontend technologies like React and Tailwind CSS, I aim to create engaging and accessible digital experiences.
         </p>
+        <img src={a1Image} alt="About"/>
       </div>
     </section>
   );
